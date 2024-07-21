@@ -1,0 +1,42 @@
+.checkbox_status {
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 20rem;
+  margin-bottom: 1rem;
+}
+.submitbutton,
+.updatebutton {
+  margin-left: 316px;
+  float: left;
+}
+.backbutton {
+  float: right;
+  margin-right: 316px;
+}
+#displaytable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#displaytable td,
+#displaytable th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#displaytable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#displaytable tr:hover {
+  background-color: #ddd;
+}
+
+#displaytable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #000000;
+  color: white;
+}
